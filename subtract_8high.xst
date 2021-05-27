@@ -1,0 +1,5 @@
+set -tmpdir "E:/DATA/learn_fpga/ALU_8bit/xst/projnav.tmp"
+set -xsthdpdir "E:/DATA/learn_fpga/ALU_8bit/xst"
+elaborate
+-ifn subtract_8high.prj
+-ifmt mixed

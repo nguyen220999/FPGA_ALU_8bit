@@ -1,0 +1,75 @@
+V3 51
+FL E:/DATA/learn_fpga/ALU_8bit/adder_4bit.vhd 2021/04/19.09:58:20 P.20131013
+EN work/adder_4bit 1620971387 FL E:/DATA/learn_fpga/ALU_8bit/adder_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/adder_4bit/Behavioral 1620971388 \
+      FL E:/DATA/learn_fpga/ALU_8bit/adder_4bit.vhd EN work/adder_4bit 1620971387 \
+      CP full_adder
+FL E:/DATA/learn_fpga/ALU_8bit/adder_8bit.vhd 2021/05/14.09:30:07 P.20131013
+EN work/adder_8bit 1620971393 FL E:/DATA/learn_fpga/ALU_8bit/adder_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/adder_8bit/Behavioral 1620971394 \
+      FL E:/DATA/learn_fpga/ALU_8bit/adder_8bit.vhd EN work/adder_8bit 1620971393 \
+      CP full_adder
+FL E:/DATA/learn_fpga/ALU_8bit/ALU_8bit.vhd 2021/05/14.12:49:41 P.20131013
+EN work/ALU_8bit 1620971403 FL E:/DATA/learn_fpga/ALU_8bit/ALU_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ALU_8bit/Behavioral 1620971404 \
+      FL E:/DATA/learn_fpga/ALU_8bit/ALU_8bit.vhd EN work/ALU_8bit 1620971403 \
+      CP subtract_8bit CP adder_8bit CP compare_8bit CP multiplier_8bit
+FL E:/DATA/learn_fpga/ALU_8bit/ALU_8high.vhd 2021/05/14.00:05:22 P.20131013
+AR work/ALU_8high/Behavioral 0 FL E:/DATA/learn_fpga/ALU_8bit/ALU_8high.vhd \
+      EN work/ALU_8high 0 CP work/subtract_8high CP work/bocong_8high
+FL E:/DATA/learn_fpga/ALU_8bit/bocong_8high.vhd 2021/04/15.10:02:47 P.20131013
+EN work/bocong_8high 1620927211 FL E:/DATA/learn_fpga/ALU_8bit/bocong_8high.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/bocong_8high/Behavioral 1620927212 \
+      FL E:/DATA/learn_fpga/ALU_8bit/bocong_8high.vhd EN work/bocong_8high 1620927211 \
+      CP full_adder
+FL E:/DATA/learn_fpga/ALU_8bit/compare_1bit.vhd 2021/04/17.23:56:05 P.20131013
+EN work/compare_1bit 1620971389 FL E:/DATA/learn_fpga/ALU_8bit/compare_1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/compare_1bit/Behavioral 1620971390 \
+      FL E:/DATA/learn_fpga/ALU_8bit/compare_1bit.vhd EN work/compare_1bit 1620971389
+FL E:/DATA/learn_fpga/ALU_8bit/compare_4bit.vhd 2021/05/14.09:40:34 P.20131013
+EN work/compare_4bit 1620971395 FL E:/DATA/learn_fpga/ALU_8bit/compare_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/compare_4bit/Behavioral 1620971396 \
+      FL E:/DATA/learn_fpga/ALU_8bit/compare_4bit.vhd EN work/compare_4bit 1620971395 \
+      CP compare_1bit
+FL E:/DATA/learn_fpga/ALU_8bit/compare_8bit.vhd 2021/05/14.09:23:51 P.20131013
+EN work/compare_8bit 1620971399 FL E:/DATA/learn_fpga/ALU_8bit/compare_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/compare_8bit/Behavioral 1620971400 \
+      FL E:/DATA/learn_fpga/ALU_8bit/compare_8bit.vhd EN work/compare_8bit 1620971399 \
+      CP compare_4bit
+FL E:/DATA/learn_fpga/ALU_8bit/compare_8high.vhd 2021/04/18.23:32:08 P.20131013
+FL E:/DATA/learn_fpga/ALU_8bit/full_adder.vhd 2021/04/14.23:06:03 P.20131013
+EN work/full_adder 1620971385 FL E:/DATA/learn_fpga/ALU_8bit/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Behavioral 1620971386 \
+      FL E:/DATA/learn_fpga/ALU_8bit/full_adder.vhd EN work/full_adder 1620971385
+FL E:/DATA/learn_fpga/ALU_8bit/multiplier_4bit.vhd 2021/04/19.10:51:00 P.20131013
+EN work/multiplier_4bit 1620971391 \
+      FL E:/DATA/learn_fpga/ALU_8bit/multiplier_4bit.vhd PB ieee/std_logic_1164 1381692176
+AR work/multiplier_4bit/Behavioral 1620971392 \
+      FL E:/DATA/learn_fpga/ALU_8bit/multiplier_4bit.vhd EN work/multiplier_4bit 1620971391 \
+      CP adder_4bit
+FL E:/DATA/learn_fpga/ALU_8bit/multiplier_8bit.vhd 2021/05/14.09:48:52 P.20131013
+EN work/multiplier_8bit 1620971401 \
+      FL E:/DATA/learn_fpga/ALU_8bit/multiplier_8bit.vhd PB ieee/std_logic_1164 1381692176
+AR work/multiplier_8bit/Behavioral 1620971402 \
+      FL E:/DATA/learn_fpga/ALU_8bit/multiplier_8bit.vhd EN work/multiplier_8bit 1620971401 \
+      CP multiplier_4bit CP adder_8bit
+FL E:/DATA/learn_fpga/ALU_8bit/subtract_8bit.vhd 2021/05/14.09:31:35 P.20131013
+EN work/subtract_8bit 1620971397 FL E:/DATA/learn_fpga/ALU_8bit/subtract_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/subtract_8bit/Behavioral 1620971398 \
+      FL E:/DATA/learn_fpga/ALU_8bit/subtract_8bit.vhd EN work/subtract_8bit 1620971397 \
+      CP full_adder
+FL E:/DATA/learn_fpga/ALU_8bit/subtract_8high.vhd 2021/04/15.14:58:55 P.20131013
+EN work/subtract_8high 1620927215 \
+      FL E:/DATA/learn_fpga/ALU_8bit/subtract_8high.vhd PB ieee/std_logic_1164 1381692176
+AR work/subtract_8high/Behavioral 1620927216 \
+      FL E:/DATA/learn_fpga/ALU_8bit/subtract_8high.vhd EN work/subtract_8high 1620927215 \
+      CP full_adder

@@ -1,0 +1,4 @@
+vhdl work "E:\DATA\learn_fpga\ALU_8bit\full_adder.vhd"
+vhdl work "E:\DATA\learn_fpga\ALU_8bit\subtract_8high.vhd"
+vhdl work "E:\DATA\learn_fpga\ALU_8bit\bocong_8high.vhd"
+vhdl work "E:\DATA\learn_fpga\ALU_8bit\ALU_8high.vhd"

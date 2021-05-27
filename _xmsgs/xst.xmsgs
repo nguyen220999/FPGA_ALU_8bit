@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1739" delta="old" >HDL ADVISOR - &quot;<arg fmt="%s" index="1">E:/DATA/learn_fpga/ALU_8bit/ALU_8bit.vhd</arg>&quot; line <arg fmt="%d" index="2">35</arg>: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+</msg>
+
+<msg type="info" file="Xst" num="1739" delta="old" >HDL ADVISOR - &quot;<arg fmt="%s" index="1">E:/DATA/learn_fpga/ALU_8bit/compare_8bit.vhd</arg>&quot; line <arg fmt="%d" index="2">35</arg>: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+</msg>
+
+<msg type="info" file="Xst" num="1739" delta="old" >HDL ADVISOR - &quot;<arg fmt="%s" index="1">E:/DATA/learn_fpga/ALU_8bit/compare_8bit.vhd</arg>&quot; line <arg fmt="%d" index="2">35</arg>: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">RES3&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">RES2&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">RES1&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">RES0&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">X&lt;6&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">X&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">X&lt;2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">X&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">CARRY&lt;2:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+</messages>
+
